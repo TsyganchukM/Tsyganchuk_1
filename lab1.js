@@ -7,13 +7,13 @@ let scratches = null;
 let price = 18000; 
 
 const productDetails = {
-    brand,
-    models, 
-    colors,
-    materials: [...new Set(materials)], 
-    availability,
-    scratches,
-    price,
+brand,
+models, 
+colors,
+materials: [...new Set(materials)], 
+availability,
+scratches,
+price,
 };
 
 

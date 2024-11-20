@@ -1,4 +1,4 @@
-const title = "mAcer Laptop"; 
+const brand = "mAcer Laptop"; 
 const models = ['TEST', 'COPPER', 'NONEX']; 
 const colors = ['black', 'silver', 'space gray', 'white', 'blue'];
 const materials = ['aluminum', 'plastic', 'carbon fiber', 'magnesium alloy'];
@@ -7,7 +7,7 @@ let scratches = null;
 let price = 18000; 
 
 const productDetails = {
-    title,
+    brand,
     models, 
     colors,
     materials: [...new Set(materials)], 

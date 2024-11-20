@@ -16,7 +16,5 @@ scratches,
 price,
 };
 
-
 console.log("Product Details:");
 console.table(productDetails);
-
